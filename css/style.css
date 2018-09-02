@@ -1,0 +1,245 @@
+/* Здесь будут храниться стили нашего сайта */
+body{
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding-top: 59px;
+  padding-bottom: 22px;
+  background-color: #F1F4F9;
+  color: #424D5D;
+}
+
+.header-col-2 {
+  text-align: center;
+}
+
+.header-pretitle {
+  margin-top: 102px;
+  color: #424D5D;
+
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36.81px;
+  margin-top: 21px;
+}
+
+.header-subtitle {
+  margin-top: 20px;
+  color: #A0A0A8;
+}
+
+.header-button {
+  background-color: #FF9356;
+  border: 1px solid #FF6A65;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px 55px;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.header-button-block {
+  position: relative;
+}
+
+header small {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin-top: 9px;
+  color: #A0A0A8;
+
+}
+
+.header-button-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*  Секция портфолио */
+.portfolio-class {
+  padding-top: 44px;
+  padding-bottom: 71px;
+  margin-top: 44px;
+
+}
+
+.portfolio-block {
+  padding-top: 29px;
+  padding-bottom: 44px;
+
+}
+
+.portfolio-img{
+  width: 400px;
+  height: 400px;
+  margin-bottom: 0px;
+}
+
+.portfolio-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #202D3E;
+  margin-bottom: 10px;
+}
+
+.portfolio-subtitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #A0A0A8;
+}
+
+.portfolio-title, .portfolio-subtitle {
+  text-align: center;
+}
+
+.portfolio-col-1 {
+  padding-left: 50px;
+  width: 500px;
+  text-align: center;
+}
+
+.portfolio-col-2 {
+  padding-right:  50px;
+  width: 500px;
+  text-align: center;1
+}
+
+.portfolio-block h3 {
+  text-align: center;
+  color: #202D3E;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.portfolio-text {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.portfolio-text a {
+  color: #FD935D;
+}
+
+.portfolio-block a {
+  color: #FD935D;
+  font-size: 14;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* Оформление подвала */
+
+footer {
+  background-color: #202D3E;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.footer-authir {
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.footer-tex {
+  margin-top: 0px;
+}
+
+.social-block {
+  text-align: center;
+}
+
+.social-block a{
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footer-button {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 12px 40px;
+  margin-top: -5px;
+}
+
+.footer-cta-block {
+  text-align: center;
+}
+
+@media (max-width; 1200px) {
+  .header-pretitle {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width; 1200px) {
+  .header-button-block {
+    text-align: center;
+  }
+}
+
+@media (max-width:992px) {
+  .header-img {
+    display: none;
+  }
+
+}
+
+@media (max-width:992px) {
+  .portfolio-img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (max-width:992px) {
+  .portfolio-col-1,.portfolio-col-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width:768px) {
+  .portfolio-col-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .portfolio-col-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .footer-author,.footer-text {
+    text-align: center;
+  }
+}
